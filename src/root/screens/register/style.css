@@ -1,0 +1,20 @@
+.route-register .simple-link.no-account-yet {
+    margin-top: 26px !important;
+    margin-bottom: 62px;
+    text-align: center;
+}
+
+.route-register .group-containter .email {
+    height: 40px;
+}
+.route-register .change-email  {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.route-register .password-visible  {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+

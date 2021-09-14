@@ -1,0 +1,81 @@
+.modal-header button>.close-icon.after:after {
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    width: 12px;
+    height: 12px;
+    background-size: 12px 12px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTRweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIwIDAgMTQgMTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+aWNfY2xvc2VfYmxhY2tfMjRweDwvdGl0bGU+PGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+PHBvbHlnb24gaWQ9IlNoYXBlIiBwb2ludHM9IjE0IDEuNDEgMTIuNTkgMCA3IDUuNTkgMS40MSAwIDAgMS40MSA1LjU5IDcgMCAxMi41OSAxLjQxIDE0IDcgOC40MSAxMi41OSAxNCAxNCAxMi41OSA4LjQxIDciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yODIuMDAwMDAwLCAtMjQuMDAwMDAwKSB0cmFuc2xhdGUoMjgyLjAwMDAwMCwgMjQuMDAwMDAwKSIgZmlsbD0iIzMyNjZDQyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiLz48L3N2Zz4=")
+}
+
+.modal-header button:hover>.close-icon.after:after {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTRweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIwIDAgMTQgMTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+aWNfY2xvc2VfYmxhY2tfMjRweDwvdGl0bGU+PGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+PHBvbHlnb24gaWQ9IlNoYXBlIiBwb2ludHM9IjE0IDEuNDEgMTIuNTkgMCA3IDUuNTkgMS40MSAwIDAgMS40MSA1LjU5IDcgMCAxMi41OSAxLjQxIDE0IDcgOC40MSAxMi41OSAxNCAxNCAxMi41OSA4LjQxIDciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yODIuMDAwMDAwLCAtMjQuMDAwMDAwKSB0cmFuc2xhdGUoMjgyLjAwMDAwMCwgMjQuMDAwMDAwKSIgZmlsbD0iI0VCOUUyQSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiLz48L3N2Zz4=")
+}
+
+.category-modal .category-list .simple-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-modal .category-list .sub-category-icon {
+    width: 10px;
+    height: 16px;
+    margin-top: 14px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTAgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+U3Ryb2tlIDI8L3RpdGxlPjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPjxwb2x5bGluZSBwb2ludHM9IjggMTkgMTUgMTIgOCA1IiBpZD0iU3Ryb2tlLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03LjAwMDAwMCwgLTQuMDAwMDAwKSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiMzMjY2Q0MiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==")
+}
+
+.category-modal .category-list .category-selected-icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 14px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjJweCIgaGVpZ2h0PSIyMnB4IiB2aWV3Qm94PSIwIDAgMjIgMjIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmlsbCAyPC90aXRsZT48ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz48cGF0aCBkPSJNOS43MjA2NjY2NywxNy4wODMzMzMzIEw1LjQwMzg1NDE3LDEyLjc2NjUyMDggTDYuODg0MzU0MTcsMTEuMjg2MDIwOCBMOS43MjA2NjY2NywxNC4xMTE4MzMzIEwxNi45MDI2NjY3LDYuOTI5ODMzMzMgTDE4LjM4MzE2NjcsOC40MjA4MzMzMyBMOS43MjA2NjY2NywxNy4wODMzMzMzIFogTTExLjgyMDY2NjcsMS4zMzMzMzMzMyBDNi4wMjQ2NjY2NywxLjMzMzMzMzMzIDEuMzIwNjY2NjcsNi4wMzczMzMzMyAxLjMyMDY2NjY3LDExLjgzMzMzMzMgQzEuMzIwNjY2NjcsMTcuNjI5MzMzMyA2LjAyNDY2NjY3LDIyLjMzMzMzMzMgMTEuODIwNjY2NywyMi4zMzMzMzMzIEMxNy42MTY2NjY3LDIyLjMzMzMzMzMgMjIuMzIwNjY2NywxNy42MjkzMzMzIDIyLjMyMDY2NjcsMTEuODMzMzMzMyBDMjIuMzIwNjY2Nyw2LjAzNzMzMzMzIDE3LjYxNjY2NjcsMS4zMzMzMzMzMyAxMS44MjA2NjY3LDEuMzMzMzMzMzMgTDExLjgyMDY2NjcsMS4zMzMzMzMzMyBaIiBpZD0iRmlsbC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjc4LjAwMDAwMCwgLTExOC4wMDAwMDApIHRyYW5zbGF0ZSgyMC4wMDAwMDAsIDY3LjAwMDAwMCkgdHJhbnNsYXRlKDI1Ny4wMDAwMDAsIDUwLjAwMDAwMCkiIGZpbGw9IiMzMjY2Q0MiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9zdmc+")
+}
+
+.category-list li a {
+    line-height: 32px;
+}
+
+.category-list li a.sub-category0 {
+    margin-left: 0px;
+}
+.category-list li a.sub-category1 {
+    margin-left: 15px;
+}
+.category-list li a.sub-category2 {
+    margin-left: 30px;
+}
+.category-list li a.sub-category3 {
+    margin-left: 450px;
+}
+
+.category-modal .category-list li a {
+    line-height: 50px;
+}
+
+.category-modal .category-list li a.sub-category {
+    margin-left: 20px;
+    line-height: 44px;
+}
+
+.category-path .sub-category {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.category-path .sub-category.level1 {
+    margin-left: 16px;
+}
+
+.category-path .sub-category.level2 {
+    margin-left: 32px;
+}
+
+.search-count {
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    line-height: 16px;
+    padding-left: 8px;
+    font-weight: 400;
+}

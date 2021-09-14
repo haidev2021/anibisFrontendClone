@@ -1,0 +1,12 @@
+.favorite-container {
+    clear: both;
+}
+#login-to-sync span{
+    display: block;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+#login-to-sync button{
+    margin-bottom: 12px;
+}

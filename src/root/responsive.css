@@ -1,0 +1,125 @@
+@media(max-width:1023px) {
+    .res-ib.maxw1023 {
+        display: inline-block !important;
+    }
+    .res-b.maxw1023 {
+        display: block !important;
+    }
+    .res-f.maxw1023 {
+        display: flex !important;
+    }
+    [class*="res-"].minw1024 {
+        display: none !important;
+    }
+}
+
+@media(min-width:1024px) {
+    .res-ib.minw1024 {
+        display: inline-block !important;
+    }
+    .res-b.minw1024 {
+        display: block !important;
+    }
+    .res-f.minw1024 {
+        display: flex !important;
+    }
+    [class*="res-"].maxw1023 {
+        display: none !important;
+    }
+}
+@media(max-width:767px) {
+    .res-ib.maxw767 {
+        display: inline-block !important;
+    }
+    .res-b.maxw767 {
+        display: block !important;
+    }
+    .res-f.maxw767 {
+        display: flex !important;
+    }
+    [class*="res-"].minw768 {
+        display: none !important;
+    }
+}
+
+@media(min-width:768px) {
+    .res-ib.minw768 {
+        display: inline-block !important;
+    }
+    .res-b.minw768 {
+        display: block !important;
+    }
+    .res-f.minw768 {
+        display: flex !important;
+    }
+    [class*="res-"].maxw767 {
+        display: none !important;
+    }
+}
+
+@media(max-width:599px) {
+    #langs {
+        display: none !important;
+    }
+    .res-ib.maxw599 {
+        display: inline-block !important;
+    }
+    .res-b.maxw599 {
+        display: block;
+    }
+    .res-f.maxw599 {
+        display: flex !important;
+    }
+    [class*="res-"].minw600 {
+        display: none !important;
+    }
+}
+
+@media(min-width:600px) {
+    .res-ib.minw600 {
+        display: inline-block !important;
+    }
+    .res-b.minw600 {
+        display: block !important;
+    }
+    .res-f.minw600 {
+        display: flex !important;
+    }
+    [class*="res-"].maxw599 {
+        display: none !important;
+    }
+}
+
+
+@media(max-width:479px) {
+    #langs {
+        display: none !important;
+    }
+    .res-ib.maxw479 {
+        display: inline-block !important;
+    }
+    .res-b.maxw479 {
+        display: block;
+    }
+    .res-f.maxw479 {
+        display: flex !important;
+    }
+    [class*="res-"].minw480 {
+        display: none !important;
+    }
+}
+
+@media(min-width:480px) {
+    .res-ib.minw480 {
+        display: inline-block !important;
+    }
+    .res-b.minw480 {
+        display: block !important;
+    }
+    .res-f.minw480 {
+        display: flex !important;
+    }
+    [class*="res-"].maxw479 {
+        display: none !important;
+    }
+}
